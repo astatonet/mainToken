@@ -1029,7 +1029,6 @@ if (window.ethereum) {
 
     function sendCapital(inputElm,decimals) {             
         const amountTkn = document.getElementById(inputElm).value*(10**decimals); 
-        alert(amountTkn); 
         contractEx = web3.eth.contract(exchangeABI).at(exchangeAddr);
         contractEx.sendCapital(amountTkn, {
           gas: 120000,          
