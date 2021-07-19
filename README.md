@@ -15,5 +15,7 @@ https://github.com/astatonet/mainToken/blob/main/webInterface.html
 # DAPP Compatibility:
 
 1 - Brave Browser, native, enable your wallet
+
 2 - Opera Browser, native, enable your wallet (in test)
+
 3 - Chrome & Firefox, extensions, Metamask+Metamask web3 Legacy
